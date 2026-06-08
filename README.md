@@ -35,7 +35,7 @@ GIF created with LICEcap
 
 ## Notes
 
-I had a little trouble figuring out how to pass image paths as props in React, but importing passing them as variables instead of strings made them work.
+I had a little trouble figuring out how to pass image paths as props in React, but importing and passing them as variables instead of strings made them work.
 
 ## License
 
