@@ -1,0 +1,53 @@
+#root {
+  text-align: center;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: white;
+  background-color: rgb(12, 29, 22);
+}
+
+ body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.places-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(44, 105, 80);
+  padding-top: 30px;
+}
+
+.Card {
+  color: black;
+  background-color: white;
+  text-align: center;
+  height: 450px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  padding-top: 30px;
+  box-shadow: 3px 3px 10px black;
+}
+
+.Card img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.Card button {
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background-color: blueviolet;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.Header h1 {
+  text-shadow: 3px 3px black;
+}
